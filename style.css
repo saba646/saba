@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:#42bcf5;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    height:10%;
+    width: 100%;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 5px;
+    font-family: "Seymour One", sans-serif;
+}
+.nav h1{
+    font-size: 2.2vw;
+   color:#000;
+}
+.nav h1 span{
+    color: #42bcf5;
+}
+.nav h2{
+    font-size: 0.80vw;
+    color: #42bcf5;
+}
+.nav> button{
+    font-size:0.70vw;
+    padding: 3px 4px;
+    background-color: #42bcf5;
+    color: #fff;
+   padding: 1vw 1vw;
+   border-radius: 2vw;
+   border:none;
+   font-family: "Seymour One", sans-serif;
+
+}
+.content{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    height: 100%;
+    width: 60%;
+    background-color: #42bcf5;
+    padding: 13vw 3vw;
+    font-family:"Roboto", sans-serif;
+   
+ 
+}
+.right{
+    height: 100%;
+    width: 50%;
+    background-image: url(file:///C:/Users/Saba%20Shahbaz/Documents/saba%20shhabaz/trail%20web/web5.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.left h1{
+    font-size: 3vw;
+    color: #fff;
+    padding-left: 2vw;
+}
+.left p{
+    font-size: 1.40vw;
+    color: #fff;
+    padding-top: 3vw;
+    padding-left: 2vw;
+
+}
+.btns{
+    display: flex;
+    display: inline-block;
+}
+#btn-1{
+
+    background-color: #000;
+    color: #fff;
+    margin-top: 3vw;
+    padding: 0.20vw 2vw;
+    font-size: 1.30vw;
+    position: relative;
+    border-radius:1vw;
+    margin-left: 30px;
+    text-align: center;
+}
+#btn-1> span{
+    color: #fff;
+    font-size: 1.90vw;
+}
+#btn-2> span{
+    color: #fff;
+    font-size: 1.90vw;
+}
+#btn-2{
+
+    background-color: #000;
+    color: #fff;
+    margin-top: 3vw;
+    padding: 0.20vw 2vw;
+    font-size: 1.30vw;
+    position: relative;
+    border-radius:1vw;
+}
+#btn-1 i{
+    font-size: 2vw;
+}
+#btn-2 i{
+    font-size: 2vw;
+}
+ @media (max-width:600px) {
+    .nav{
+        width: 100%;
+    }
+    .nav h1{
+        font-size:2vmax;
+    }
+    .nav h2{
+        font-size: 1vw;
+        padding: 0 0.40vmax;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        height:100%;
+    }
+    .left{
+        height: 50%;
+        width: 100%;
+    }
+    .left>h1{
+        font-size:3vw;
+       
+    }
+    .left>p{
+    
+    }
+    .right{
+        height: 100%;
+        width: 100%;
+    }
+    
+ }
